@@ -28,6 +28,7 @@ Map<String, List<Account>> acctsByIndustry = GroupByUtils.groupBy(accounts, 'Ind
 Map<String, List<Account>> acctsByOwnerRoleName = GroupByUtils.groupBy(accounts, 'Owner.UserRole.Name');
 ```
 
+
 Group accounts by Owner.UserRole.Name while reducing strain on heap size:
 ```java
 // sample data:
