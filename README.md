@@ -2,6 +2,10 @@
 
 Easily group a list of SObject records by a specified field or field path
 
+<a href="https://githubsfdeploy.herokuapp.com">
+  <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />
+</a>
+
 Usage:
 ```java
 // sample data:
